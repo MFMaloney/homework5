@@ -1,0 +1,20 @@
+Ebay Schema
+
+Users:
+-name(string)
+-email(string)
+-password(string)
+
+Reviews:
+-review(text)
+-user_id(int)
+
+Products:
+-name(string)
+-description(string)
+-category_id(int)
+-user_id(int)'person selling the item'
+
+Categories
+-name(string)
+-product_id(int)
