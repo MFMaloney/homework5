@@ -12,9 +12,12 @@ Reviews:
 Products:
 -name(string)
 -description(string)
--category_id(int)
 -user_id(int)'person selling the item'
 
 Categories
 -name(string)
--product_id(int)
+
+
+Catagories_Products:
+-Catagory_id(int)
+-Product_id(int)
